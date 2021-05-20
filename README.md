@@ -47,7 +47,7 @@ se aplicaran filtros de busqueda por:
 
 Mostrando el resultado dinámico sin recargar la página.
 
-![Screenshot](screenshoot.png)
+![Screenshot](screenshoot.PNG)
 
 ### Herramientas 🔧
 
