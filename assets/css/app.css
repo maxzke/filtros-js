@@ -1,0 +1,9 @@
+#resultado{
+    height: 350px;
+  width: auto;
+  border: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 13px;
+  color: #131416;   
+}

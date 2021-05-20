@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Autos</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Buscador de Autos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="marca" class="form-label mt-4">Marca</label>
+                        <select class="form-select form-select-sm" id="marca">
+                            <option value="" class="text-capitalize">seleccionar</option>
+                            <option value="BMW" class="text-capitalize">BMW</option>
+                            <option value="Raptor" class="text-capitalize">Raptor</option>
+                            <option value="Tacoma" class="text-capitalize">Tacoma</option>
+                            <option value="crysler" class="text-capitalize">crysler</option>
+                            <option value="dodge" class="text-capitalize">dodge</option>
+                            <option value="audi" class="text-capitalize">Audi</option>
+                            <option value="tesla" class="text-capitalize">tesla</option>
+                            <option value="ford" class="text-capitalize">ford</option>
+                            <option value="toyota" class="text-capitalize">toyota</option>
+                            <option value="nissan" class="text-capitalize">nissan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="year" class="form-label mt-4">Año</label>
+                        <select class="form-select form-select-sm" id="year">
+                            <option value="">Seleccionar</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="preciomin" class="form-label mt-4">Precio Min</label>
+                        <select class="form-select form-select-sm" id="preciomin">
+                            <option value="">Seleccionar</option>
+                            <option value="900000">900,000</option>
+                            <option value="800000">800,000</option>
+                            <option value="700000">900,000</option>
+                            <option value="600000">600,000</option>
+                            <option value="500000">500,000</option>
+                            <option value="400000">400,000</option>
+                            <option value="300000">300,000</option>
+                            <option value="200000">200,000</option>
+                            <option value="100000">100,000</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="preciomax" class="form-label mt-4">Precio Max</label>
+                        <select class="form-select form-select-sm" id="preciomax">
+                            <option value="">Seleccionar</option>
+                            <option value="900000">900,000</option>
+                            <option value="800000">800,000</option>
+                            <option value="700000">900,000</option>
+                            <option value="600000">600,000</option>
+                            <option value="500000">500,000</option>
+                            <option value="400000">400,000</option>
+                            <option value="300000">300,000</option>
+                            <option value="200000">200,000</option>
+                            <option value="100000">100,000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="puertas" class="form-label mt-4">Puertas</label>
+                        <select class="form-select form-select-sm" id="puertas">
+                            <option value="">Seleccionar</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="transmision" class="form-label mt-4">Transmision</label>
+                        <select class="form-select form-select-sm" id="transmision">
+                            <option value="">Seleccionar</option>
+                            <option value="automatico">Automatica</option>
+                            <option value="manual">Manual</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="color" class="form-label mt-4">Color</label>
+                        <select class="form-select form-select-sm" id="color">
+                            <option value="">Seleccionar</option>
+                            <option value="gris">gris</option>
+                            <option value="azul">azul</option>
+                            <option value="negro">negro</option>
+                            <option value="rojo">rojo</option>
+                            <option value="blanco">blanco</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secion text-center mt-5">
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="assets/js/db.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
